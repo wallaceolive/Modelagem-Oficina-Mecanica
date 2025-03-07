@@ -25,7 +25,7 @@ O objetivo é modelar um sistema capaz de gerenciar **clientes, veículos, orden
 5. **Criamos uma tabela intermediária para armazenar as peças usadas em cada OS.**  
 6. **O modelo mantém um histórico completo das OS e serviços realizados.**
 
-## 📌 O diferencial desse modelo está na interpretação e enriquecimento da narrativa para garantir um sistema mais completo e funcional. Aqui estão os principais pontos que não foram especificados na narrativa, mas foram modelados com base na compreensão do contexto:
+#### 📌 O diferencial desse modelo está na interpretação e enriquecimento da narrativa para garantir um sistema mais completo e funcional. Aqui estão os principais pontos que não foram especificados na narrativa, mas foram modelados com base na compreensão do contexto:
 
 1. **Relacionamento Cliente - Veículo**
 A narrativa apenas menciona que clientes levam veículos à oficina, mas não deixa claro se um cliente pode ter mais de um veículo.
