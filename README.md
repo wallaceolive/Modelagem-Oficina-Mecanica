@@ -6,7 +6,7 @@ Este repositório contém o **Diagrama Entidade-Relacionamento (DER)** para um s
 O objetivo é modelar um sistema capaz de gerenciar **clientes, veículos, ordens de serviço, mecânicos e peças** dentro de uma oficina.  
 
 ## 📜 Diagrama Entidade-Relacionamento (DER)  
-![Diagrama da Oficina](diagrama-oficina.png)  
+![Diagrama da Oficina](diagrama-oficina.png.png)  
 
 ## 📊 Estrutura do Modelo  
 ### 🔹 Entidades e Relacionamentos  
