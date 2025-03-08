@@ -15,14 +15,14 @@ O objetivo é modelar um sistema capaz de gerenciar **clientes, veículos, orden
 - **Ordem de Serviço (OS)** é atribuída a **uma equipe de mecânicos** (N:1).  
 - **Equipe** é composta por **múltiplos mecânicos** (N:M).  
 - **Uma OS inclui vários serviços e peças** (N:M).  
-- **Cada serviço tem um valor de mão de obra**, podendo estar numa **tabela de referência** (1:1).  
+- **Cada serviço tem um valor de mão de obra**.  
 
 ## 📌 Decisões de Modelagem Baseadas na Narrativa  
 1. **Um cliente pode possuir múltiplos veículos.**  
-2. **O valor da mão de obra pode estar na tabela Serviço ou em uma tabela separada.**  
+2. **O valor da mão de obra está na tabela Serviço mas, poderia estar em uma tabela separada.**  
 3. **Os mecânicos participam de várias equipes ao longo do tempo.**  
 4. **A OS tem um status detalhado para indicar sua fase no processo.**  
-5. **Criamos uma tabela intermediária para armazenar as peças usadas em cada OS.**  
+5. **Criei uma tabela intermediária para armazenar as peças usadas em cada OS.**  
 6. **O modelo mantém um histórico completo das OS e serviços realizados.**
 
 #### 📌 O diferencial desse modelo está na interpretação e enriquecimento da narrativa para garantir um sistema mais completo e funcional. Aqui estão os principais pontos que não foram especificados na narrativa, mas foram modelados com base na compreensão do contexto:
